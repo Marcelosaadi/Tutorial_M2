@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset = "UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> CALCULADORA ETAPA 3</title>
+        <style> 
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                background: linear-gradient(to right, rgb(29, 136, 207), rgb(110, 25, 143));
+                text-align: center;
+                color: #fff;
+            }
+            .container{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform:  translate(-50%, -50%);
+                width: 50%;
+                background-color: rgba(0,0,0,0.5);
+                padding: len;
+
+                border-radius: 10px;
+            }
+            button{
+                background-color: slateblue;
+                color: #fff;
+                border: none;
+                padding: len;
+                border-radius: 10px;
+                cursor: pointer;
+
+            }
+            
+        </style>
+    </head>
+    <body>
+    <h1> Calculadora Etapa 3</h1>
+        
+
+            <div class="step2">
+                <h3> Consumo De Energia</h3>
+                <hr>
+                <label for="">Digite a quantidade de Kwh:</label>
+                <input type="number" placeholder="Quantidade Kwh" id="Qkwh">
+                <br><br>
+                <label for="">Digite valor de Kwh</label>
+                <input type="number" placeholder="Valor Kwh" id="Vkwh">
+                <br><br>
+                <p> Valor Total:</p>
+                <p id = "vtotal"> </p>
+                <br><br>
+                <button id="botao" type="button"> Calcular</button>
+            </div>
+       
+        </div>
+</body>
+<script src = "app.js" defer>
+    const secondDiv = document.querySelector("step2")
+</script>
+</html>

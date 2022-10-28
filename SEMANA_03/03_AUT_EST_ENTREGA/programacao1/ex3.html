@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset = "UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> CALCULADORA ETAPA 3</title>
+        <style> 
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                background: linear-gradient(to right, rgb(29, 136, 207), rgb(110, 25, 143));
+                text-align: center;
+                color: #fff;
+            }
+            .container{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform:  translate(-50%, -50%);
+                width: 50%;
+                background-color: rgba(0,0,0,0.5);
+                padding: len;
+
+                border-radius: 10px;
+            }
+            button{
+                background-color: slateblue;
+                color: #fff;
+                border: none;
+                padding: len;
+                border-radius: 10px;
+                cursor: pointer;
+
+            }
+            
+        </style>
+    </head>
+    <body>
+    <h1> Calculadora Etapa 3</h1>
+        
+
+            <div class="second-step">
+                <h3> Temperatura</h3>
+                <hr>
+                <label for="">Digite a temperatura:</label>
+                <input type="number" placeholder="Temperatura" id="tpr">
+                <br><br>
+                <p id="tempconv"> Temperatura Convertida:  </p>
+                <button id = "buttoncels"> Converter para Celsius</button>
+                <br><br>
+                <button id = "buttonfaren"> Converter para Farenheit</button>
+                <br><br>
+                <p id = "resultado"></p>
+            </div>
+       
+        </div>
+</body>
+<script src= "app.js" defer>
+
+    const secondDiv = document.querySelector("second-step")
+</script>
+</html>
